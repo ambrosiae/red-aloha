@@ -722,7 +722,7 @@ START
 	width: 25%;
 }
 
-/* .to-top{
+.to-top{
 	position: fixed;
 	top: 820px;
 	left: 1500px;
@@ -734,4 +734,4 @@ START
 	text-shadow: -2px -2px rgb(100, 100, 100);
 	font-size: 4rem;
 
-} */
+}
