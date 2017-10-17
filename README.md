@@ -14,4 +14,4 @@ Responsive cart product counter, fixed nav bar for tablet and desktop versions, 
 Challenges:
 Cart product counter (and surprisingly, the footer -- flexbox inception!).
 
-Fun introduction to web development thanks to our supportive instructors and classmates who look out for each other!
+Fun introduction to web development thanks to our amazing, supportive instructors and classmates who look out for each other!

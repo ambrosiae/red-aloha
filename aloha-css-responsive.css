@@ -209,7 +209,7 @@ a:hover{
 	top: 8px;
 	order: 3;
 	color: #e2574c;
-	font-style: bold;
+	font-weight: 800;
 }
 
 .nav{
@@ -733,5 +733,4 @@ START
 	text-transform: uppercase;
 	text-shadow: -2px -2px rgb(100, 100, 100);
 	font-size: 4rem;
-
 }
