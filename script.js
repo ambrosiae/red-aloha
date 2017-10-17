@@ -34,25 +34,53 @@ $('.carousel').flickity({
 
 });
 
-
 // E-MAIL SUBSCRIPTION ALERT
 
-$('form').on('submit', function(event){
-  event.preventDefault();
-    if ($('input').val()!=''){
-    alert('Thanks for subscribing!');}
-    else{
-    alert('Please enter a valid e-mail address.')
-    }
-  })
+// $('form').on('submit', function(event){
+//   event.preventDefault();
+//     if ($('input').val()==''){
+//     alert('Please enter a valid e-mail address.');}
+    
+//     // if ($('email').val().indexOf('@')!=0){
+      
+//     else {
+//     alert('Thanks for subscribing!');}
+//   })
 
 // REMOVE SOCIAL TEXT IF MOBILE
 
-if (window.matchMedia('(max-width: 599px)').matches) {
-  $('.social').removeClass('a');
+// if (window.matchMedia('(max-width: 599px)'.match) {
+//   $('.social').removeClass('a');
+// }
+// else{
+
+// };)
+
+// STACKOVERFLOW E-MAIL SUBSCRIPTION ALERT
+
+function validateEmail(input){
+  var email = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+
+  if (email.test(input.value) == true) 
+  {
+    alert('Thanks for subscribing!');
+  }
+
+  else
+  {
+    alert('Invalid Email Address');
+  }
+
 }
 
-else{
+// ADD TO CART NUMBER
 
-}
+var counter = 0;
 
+$('.add-cart').click(function (){
+  counter ++;
+  $('#counter').html(counter).css('display', 'block');
+}); 
+
+// REMOVE ADD TO CART WHEN CLICKED
+// if ()

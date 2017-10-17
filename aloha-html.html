@@ -23,6 +23,9 @@
 
   <img src='images/cart-icon.svg' alt='cart' class='cart'>
 
+<div class='counter' id='counter'>
+</div>
+
 <div class='nav'>
     <ul>
     <li><a href='#about'>about </a></li>
@@ -85,14 +88,18 @@
     <img src='images/checked-stretch-dress.jpg' alt='product'>
     <p>Dresses</p>
     <h4>Checked Stretch Dress</h4>
-    <p>$129.00</p>
-  </div>
+    <p class='padding'>$129.00</p>
+    <button class='add-cart'>Add to Cart
+    </button>
+    </div>
 
   <div class="carousel-cell">
     <img src='images/blue-hipster-backpack.jpg' alt='product'>
     <p>Bags</p>
     <h4>Blue Hipster Backpack</h4>
-    <p>$69.00</p>
+    <p class='padding'>$69.00</p>
+    <button class='add-cart'>Add to Cart
+    </button>
   </div>
   
   <div class="carousel-cell">
@@ -100,6 +107,8 @@
     <p>Denim</p>
     <h4>Denim Overall Shorts</h4>
     <p class='padding'>$89.00</p>
+    <button class='add-cart'>Add to Cart
+    </button>
   </div>
 
   <div class="carousel-cell">
@@ -107,6 +116,8 @@
     <p>Dresses</p>
     <h4>Pink Dotted Dress</h4>
     <p class='padding'>$99.00</p>
+    <button class='add-cart'>Add to Cart
+    </button>
   </div>
 
   <div class="carousel-cell">
@@ -114,6 +125,8 @@
     <p>Dresses</p>
     <h4>Blue Silk Dress</h4>
     <p class='padding'>$169.00</p>
+    <button class='add-cart'>Add to Cart
+    </button>
   </div>
 
   <div class="carousel-cell">
@@ -121,6 +134,8 @@
     <p>Tops</p>
     <h4>Yellow Cotton Shirt</h4>
     <p class='padding'>$39.00</p>
+    <button class='add-cart'>Add to Cart
+    </button>
   </div>
 
   <div class="carousel-cell">
@@ -128,6 +143,8 @@
     <p>Dresses</p>
     <h4>Stretch Knit Dress</h4>
     <p class='padding'>$149.00</p>
+    <button class='add-cart'>Add to Cart
+    </button>
   </div>
 
   <div class="carousel-cell">
@@ -135,6 +152,8 @@
     <p>Dresses</p>
     <h4>Blue Cotton Shirt</h4>
     <p class='padding'>$39.00</p>
+    <button class='add-cart'>Add to Cart
+    </button>
   </div>
 
 </div>
@@ -147,7 +166,7 @@
 
 <div class='form'>
   <form method='post'>
-  <input type='email' name='email' placeholder='Your Email'>
+  <input type='text' name='email' placeholder='Your Email' onblur="validateEmail(this);">
   <input type='submit' name='submit' value='Subscribe'>
   </form>
 </div>
