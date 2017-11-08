@@ -190,6 +190,8 @@ header{
 	        align-items: center;	
 	background: #fff;
 	padding-top: 1rem;
+	top: 0px;
+	left: 0px;
 	font-family: 'Raleway', 'Arial', 'Sans serif';
 }
 
@@ -272,61 +274,30 @@ li{
 }
 
 .container, .about{
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
-	-ms-flex-pack: distribute;
-	    justify-content: space-around;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
 	text-align: center;
 	margin: auto;
 	width: 95vw;
 	line-height: 8vw;
-	font-family: 'Raleway', 'Arial', 'Sans serif';	
 }
 
 .banner{
-	background: -webkit-gradient(
-	linear, 
-	left top, left bottom, 
-	from(rgba(0,0,0,0.3)), 
-	to(rgba(0,0,0,0.3))),
-	url(images/banner-girl.png) no-repeat center 50px,
-	url(images/flower-bkgd.jpg) center;
-	background: -webkit-linear-gradient(
-	rgba(0,0,0,0.3), 
-	rgba(0,0,0,0.3)),
-	url(images/banner-girl.png) no-repeat center 50px,
-	url(images/flower-bkgd.jpg) center;
-	background: -o-linear-gradient(
-	rgba(0,0,0,0.3), 
-	rgba(0,0,0,0.3)),
-	url(images/banner-girl.png) no-repeat center 50px,
-	url(images/flower-bkgd.jpg) center;
 	background: linear-gradient(
-	rgba(0,0,0,0.3), 
-	rgba(0,0,0,0.3)),
-	url(images/banner-girl.png) no-repeat center 50px,
-	url(images/flower-bkgd.jpg) center;
-	height: 55vh;
-	background-size: cover, contain;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	    -ms-flex-flow: column;
-	        flex-flow: column;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-	text-shadow: 1px 1px rgb(100, 100, 100);
+  	rgba(0,0,0,0.3), 
+  	rgba(0,0,0,0.3)),
+  	url(images/banner-girl.png) no-repeat center 120px,
+  	url(images/flower-bkgd.jpg) center;
+  	height: 65vh;
+  	background-size: cover, contain;
+		display: flex;
+		flex-flow: column;
+		align-content: center;
+		justify-content: center;
+		margin-top: 10vh;
+		
 }
 
 .collection{
@@ -334,7 +305,7 @@ li{
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 1rem;
-	line-height: 3rem;	
+	line-height: 3rem;
 }
 
 .season{
@@ -671,8 +642,6 @@ START
 		        align-items: center;	
 		font-family: 'Raleway', 'Arial', 'Sans serif';
 		position: fixed;
-		top: 0px;
-		left: 0px;
 		background: #fff;
 		width: 100vw;
 		height: 8vh;
