@@ -139,7 +139,6 @@ font-style: italic;
 
 /* End of fonts */
 
-
 *{
 	font-family: 'Raleway', 'sans serif';
 	font-size: 14px;
@@ -179,6 +178,7 @@ a:hover{
 	justify-content: space-between;
 	flex-flow: row wrap;	
 	align-items: center;	
+	background: #fff;
 	padding-top: 1rem;
 	font-family: 'Raleway';
 }
@@ -240,7 +240,7 @@ li{
 	align-items: center;
 	text-align: center;
 	margin: auto;
-	width: 90vw;
+	width: 95vw;
 	line-height: 8vw;
 	font-family: 'Raleway';	
 }
@@ -270,12 +270,12 @@ li{
 .season{
 	font-family: 'Playfair Display';
 	color: #fff;
-	font-size: 2.5rem;
+	font-size: 3rem;
 	line-height: 2.5rem;	
 }
 
-h3{
-	font-size: 1.8rem;
+h1{
+	font-size: 2.5rem;
 	font-family: 'Playfair Display';
 	font-style: italic;
 	padding-top: 1.5rem;
@@ -387,7 +387,7 @@ h3{
 	color: #969696;
 }
 
-h4{
+h2{
 	font-size: 1.5rem;
 	color: #e2574c;
 	text-transform: initial;
@@ -415,8 +415,8 @@ h4{
 			display: inline-flex;
 			flex-flow: column nowrap;
 			margin: auto;
-			height: 10vw;
-			width: 80vw;
+			height: 45px;
+			width: 350px;
 			background: #fff;
 			border-radius: 6vw;	 
 			padding: 1vw 0vw 0vw 0vw;
@@ -433,23 +433,22 @@ input::-webkit-input-placeholder{
 }
 
 input[type=text]{
-			border-radius: 4vw;
+			border-radius: 20px;
 			margin: auto;
-			width: 50vw;
+			width: 200px;
 			border: none;
 }
 
 input[type=submit]{
-			margin: auto;
 			background: #e2574c;
 			color: #fff;
-			height: 9vw;
-			width: 25vw;
+			height: 40px;
+			width: 100px;
 			border-radius: 6vw;
 			font-family: 'Raleway';
 			font-weight: 100;
 			border: none;
-			margin: 0vw -1vw 0vw 0vw;
+			margin-right: -30px
 }
 
 footer{
@@ -487,6 +486,29 @@ footer{
 i{
 			width: 2rem;
 			padding: 0rem 0.1rem;		
+}
+
+.top-bg{
+	position: fixed;
+	bottom: 5rem;
+	right: 5rem;
+	background: rgba(0,0,0,0.3);
+	height: 3rem;
+	width: 3rem;
+}
+
+.to-top{
+	position: fixed;
+	bottom: 5rem;
+	right: 5rem;
+	display: flex;		
+	color: #fff;
+	opacity: 0.8;
+	font-style: italic;
+	font-family: 'Raleway';
+	font-size: 2rem;
+	justify-content: center;
+	align-items: center;
 }
 
 .hidden {
@@ -529,9 +551,7 @@ START
 		position: fixed;
 		top: 0px;
 		left: 0px;
-		background: linear-gradient(
-		rgba(255, 255, 255, 0.8),
-		rgba(255, 255, 255, 0.8));
+		background: #fff;
 		width: 100vw;
 		height: 8vh;
 		padding-top: 0rem;
@@ -574,6 +594,7 @@ START
 		url(images/banner-girl.png) no-repeat center 50px,
 		url(images/flower-bkgd.jpg) repeat center;
 		background-size: contain;
+		height: 65vh;
 		margin-top: 10vh;
 }
 
@@ -721,16 +742,4 @@ START
 .carousel-cell{
 	width: 25%;
 }
-
-.to-top{
-	position: fixed;
-	top: 820px;
-	left: 1500px;
-	color: #fff;
-	opacity: 0.8;
-	font-style: italic;
-	font-family: 'Playfair Display';
-	text-transform: uppercase;
-	text-shadow: -2px -2px rgb(100, 100, 100);
-	font-size: 4rem;
 }
