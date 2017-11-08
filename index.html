@@ -1,204 +1,204 @@
 <!DOCTYPE html>
 
 <head>
-  <link href='style.css' type='text/css' rel='stylesheet'>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
+  <html lang="en">
   <title>
-  Aloha Apparel Co.
+    Aloha Apparel Co.
   </title>
-  <script src="https://code.jquery.com/jquery-3.1.0.js"></script> 
-  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <link href="style.css" type="text/css" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
-  <script src="/path/to/flickity.pkgd.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 
 <body>
-<div class='header'>
-  <img src='images/aloha-logo.svg' alt='logo' class='logo-top'>
+  <header>
+    <img src="images/aloha-logo.svg" alt="logo" class="logo-top">
+    
+    <img src="images/cart-icon.svg" alt="cart" class="cart">
+    
+    <div class="counter" id="counter">
+    </div>
+    
+    <nav>
+      <ul>
+        <li><a href="#about">about </a></li>
+        <li><a href="#shop">shop </a></li>
+        <li><a href="#featured">featured </a></li>
+        <li><a href="#signup">updates </a></li>
+      </ul>
+    </nav>
+    
+  </header>
+  
+  <section class="banner" id="banner">
+    <div class="container">
+      <div class="collection"><p>New Collection</p></div>
+      <div class="season"><p>Spring/Summer 2016</p></div> 
+    </div>  
+  </section>
+  
+  <section class="about padding" id="about">
+    <h1>Hand-Crafted <span>Styles</span></h1>
+    <p class="padding">Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below.</p>
+  </section>
+  
+  <section class="shop" id="shop">
+    <a class="men">
+      MEN"S
+    </a>
+    
+    <a class="trends">
+      TRENDS
+    </a>
+    
+    <a class="glasses">
+      GLASSES
+    </a>
+    
+    <a class="sale">
+      SALE
+    </a>
+    
+    <a class="bags">
+      BAGS
+    </a>
+    
+    <a class="women">
+      WOMEN"S
+    </a>
+    
+  </section>
 
-  <img src='images/cart-icon.svg' alt='cart' class='cart'>
+  <section class="container padding" id="featured">
+    <h1>Most-Loved <span>Products</span></h1>
+  </section>
 
-<div class='counter' id='counter'>
-</div>
-
-<div class='nav'>
-    <ul>
-    <li><a href='#about'>about </a></li>
-    <li><a href='#shop'>shop </a></li>
-    <li><a href='#featured'>featured </a></li>
-    <li><a href='#signup'>updates </a></li>
-    </ul>
-</div>
-
-</div>
-
-<div class='banner' id='banner'>
-<div class='container'>
-  <div class='collection'>New Collection</div>
-  <div class='season'>Spring/Summer 2016</div> 
-</div>  
-</div>
-
-<div class='about padding' id='about'>
-  <h1>Hand-Crafted <span>Styles</span></h1>
-  <p class='padding'>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below.</p>
-</div>
-
-<div class='shop' id='shop'>
-<a class='men'>
-  MEN'S
-</a>
-
-<a class='trends'>
-  TRENDS
-</a>
-
-<a class='glasses'>
-  GLASSES
-</a>
-
-<a class='sale'>
-  SALE
-</a>
-
-<a class='bags'>
-  BAGS
-</a>
-
-<a class='women'>
-  WOMEN'S
-</a>
-
-</div>
-
-<div class='container padding' id='featured'>
-  <h1>Most-Loved <span>Products</span></h1>
-</div>
-
-<div class='carousel'
- data-flickity='{ "wrapAround": true }'>
-
+  <section class="carousel" data-flickity="{ "wrapAround": true }">
 
   <div class="carousel-cell">
-    <img src='images/checked-stretch-dress.jpg' alt='product'>
+    <img src="images/checked-stretch-dress.jpg" alt="product">
     <p>Dresses</p>
     <h2>Checked Stretch Dress</h2>
-    <p class='padding'>$129.00</p>
-    <button class='add-cart'>Add to Cart
+    <p class="padding">$129.00</p>
+    <button class="add-cart">Add to Cart
     </button>
-    </div>
+  </div>
 
   <div class="carousel-cell">
-    <img src='images/blue-hipster-backpack.jpg' alt='product'>
+    <img src="images/blue-hipster-backpack.jpg" alt="product">
     <p>Bags</p>
     <h2>Blue Hipster Backpack</h2>
-    <p class='padding'>$69.00</p>
-    <button class='add-cart'>Add to Cart
+    <p class="padding">$69.00</p>
+    <button class="add-cart">Add to Cart
+    </button>
+  </div>
+
+  <div class="carousel-cell">
+    <img src="images/demin-overall-shorts.jpg" alt="product">
+    <p>Denim</p>
+    <h2>Denim Overall Shorts</h2>
+    <p class="padding">$89.00</p>
+    <button class="add-cart">Add to Cart
     </button>
   </div>
   
   <div class="carousel-cell">
-    <img src='images/demin-overall-shorts.jpg' alt='product'>
-    <p>Denim</p>
-    <h2>Denim Overall Shorts</h2>
-    <p class='padding'>$89.00</p>
-    <button class='add-cart'>Add to Cart
-    </button>
-  </div>
-
-  <div class="carousel-cell">
-    <img src='images/pink-dotted-dress.jpg' alt='product'>
+    <img src="images/pink-dotted-dress.jpg" alt="product">
     <p>Dresses</p>
     <h2>Pink Dotted Dress</h2>
-    <p class='padding'>$99.00</p>
-    <button class='add-cart'>Add to Cart
+    <p class="padding">$99.00</p>
+    <button class="add-cart">Add to Cart
     </button>
   </div>
-
+  
   <div class="carousel-cell">
-    <img src='images/blue-silk-dress.jpg' alt='product'>
+    <img src="images/blue-silk-dress.jpg" alt="product">
     <p>Dresses</p>
     <h2>Blue Silk Dress</h2>
-    <p class='padding'>$169.00</p>
-    <button class='add-cart'>Add to Cart
+    <p class="padding">$169.00</p>
+    <button class="add-cart">Add to Cart
     </button>
   </div>
-
+  
   <div class="carousel-cell">
-    <img src='images/cotton-yellow-tshirt.jpg' alt='product'>
+    <img src="images/cotton-yellow-tshirt.jpg" alt="product">
     <p>Tops</p>
     <h2>Yellow Cotton Shirt</h2>
-    <p class='padding'>$39.00</p>
-    <button class='add-cart'>Add to Cart
+    <p class="padding">$39.00</p>
+    <button class="add-cart">Add to Cart
     </button>
   </div>
-
+  
   <div class="carousel-cell">
-    <img src='images/stretch-knit-dress.jpg' alt='product'>
+    <img src="images/stretch-knit-dress.jpg" alt="product">
     <p>Dresses</p>
     <h2>Stretch Knit Dress</h2>
-    <p class='padding'>$149.00</p>
-    <button class='add-cart'>Add to Cart
+    <p class="padding">$149.00</p>
+    <button class="add-cart">Add to Cart
     </button>
   </div>
-
+  
   <div class="carousel-cell">
-    <img src='images/cotton-blue-shirt.jpg' alt='product'>
+    <img src="images/cotton-blue-shirt.jpg" alt="product">
     <p>Dresses</p>
     <h2>Blue Cotton Shirt</h2>
-    <p class='padding'>$39.00</p>
-    <button class='add-cart'>Add to Cart
+    <p class="padding">$39.00</p>
+    <button class="add-cart">Add to Cart
     </button>
   </div>
+  
+</section>
 
-</div>
-
-<div class='signup' id='signup'>
-
-<div class='container'> 
-  <h1>Sign-up for <span>Updates</span></h1>
-  <p class='padding'>Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
-
-<div class='form'>
-  <form method='post'>
-  <input type='text' name='email' placeholder='Your Email' onblur="validateEmail(this);">
-  <input type='submit' name='submit' value='Subscribe'>
-  </form>
-</div>
-</div>
-
-</div>
+<section class="signup" id="signup">
+  
+  <div class="container"> 
+    <h1>Sign-up for <span>Updates</span></h1>
+    <p class="padding">Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
+    
+    <div class="form">
+      <form method="post">
+        <input type="email" name="email" placeholder="Your Email" onblur="validateEmail(this);">
+        <input type="submit" name="submit" value="Subscribe">
+      </form>
+    </div>
+  </div>
+  
+</section>
 
 <footer>
-<div class='footertext'>
-  <p>© 2017 Aloha Apparel Co.</p>
-  <p>Powered by HTML and CSS.</p>
-  <p class='padding'>604-604-6040.
-  <a href='mailto:info@alohaapparel.com'>info@alohaapparel.com</a></p>
-  <div class='address'>
-  <p>1490 W Broadway</p>
-  <p>Vancouver, BC, Canada</p>
-</div>
-</div>
-
-<div class='social padding'>
-
-<ul>
-  <li><i class='fa fa-facebook'></i><a class='hidden' href='#'>Facebook</a></li>
-  <li><i class='fa fa-twitter'></i><a class='hidden' href='#'>Twitter</a></li>
-  <li><i class='fa fa-instagram'></i><a class='hidden' href='#'>Instagram</a></li>
-  <li><i class='fa fa-pinterest'></i><a class='hidden' href='#'>Pinterest</a></li>
-  <li><i class='fa fa-google-plus'></i><a class='hidden' href='#'>Google</a></li>
-</ul>
-</div>
-
-</footer>
-
-<div class='top-bg to-top'><a href='#banner'>^</a></div>
-
-<script src='script.js'></script>
+  <div class="footertext">
+    <p>© 2017 Aloha Apparel Co.</p>
+    <p>Powered by HTML and CSS.</p>
+    <p class="padding">604-604-6040.
+      <a href="mailto:info@alohaapparel.com">info@alohaapparel.com</a></p>
+      <div class="address">
+        <p>1490 W Broadway</p>
+        <p>Vancouver, BC, Canada</p>
+      </div>
+    </div>
+    
+    <div class="social padding">
+      
+      <ul>
+        <li><i class="fa fa-facebook"></i><a class="hidden" href="#">Facebook</a></li>
+        <li><i class="fa fa-twitter"></i><a class="hidden" href="#">Twitter</a></li>
+        <li><i class="fa fa-instagram"></i><a class="hidden" href="#">Instagram</a></li>
+        <li><i class="fa fa-pinterest"></i><a class="hidden" href="#">Pinterest</a></li>
+        <li><i class="fa fa-google-plus"></i><a class="hidden" href="#">Google</a></li>
+      </ul>
+    </div>
+    
+  </footer>
+  
+  <div class="top-bg to-top"><a href="#banner">^</a></div>
+  
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>  
+  <script src="/path/to/flickity.pkgd.min.js"></script>
+  <script src="script.js"></script>  
 </body>
+</html>
