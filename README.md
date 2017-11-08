@@ -12,7 +12,7 @@ Mobile-First.
 
 Stretch Goals:
 
-Responsive cart product counter, fixed nav bar for tablet and desktop versions, smooth scrolling link to top of page for all media screens.
+Responsive cart product counter, fixed solid nav bar for tablet and desktop versions, smooth scrolling link with background to top of page for all media screens.
 
 
 Challenges:
